@@ -1,0 +1,5 @@
+from actions.obtener_datos import obtener_alumnos_practicas_dataframe
+from actions.generar_excel import guardar_excel
+
+df_alumnos_practicas = obtener_alumnos_practicas_dataframe()
+guardar_excel(df_alumnos_practicas)

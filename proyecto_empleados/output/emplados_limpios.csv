@@ -1,0 +1,88 @@
+empleado_id,nombre,departamento,puesto,salario_bruto,fecha_alta,jornada,evaluacion,oficina,antiguedad_anios
+101,Rosa Pérez,Tecnología,Developer,47214.73,2021-02-11,completa,8.4,Madrid,5.0
+102,Esteban Iglesias,Ventas,Account Manager,27806.56,2020-09-15,parcial,7.8,Madrid,5.0
+103,Nerea Iglesias,Marketing,Paid Media,32295.38,2022-05-26,parcial,1.1,Valencia,4.0
+104,Rosa Pérez,Ventas,Account Manager,35667.65,2022-05-10,completa,4.8,Madrid,4.0
+106,Laura Torres,Rrhh,HR Specialist,32018.59,2022-12-14,completa,1.5,Madrid,3.0
+107,Marcos Sánchez,Ventas,Sales Lead,31991.99,2021-02-21,completa,5.9,Valencia,5.0
+108,Esteban Martínez,Marketing,SEO Specialist,18000.0,2018-04-27,completa,6.5,Remoto,8.0
+109,Fátima López,Ventas,Account Manager,41158.92,2019-05-24,completa,8.5,Barcelona,7.0
+110,Helena Torres,Rrhh,HR Manager,37404.49,2019-01-27,completa,9.5,Madrid,7.0
+111,Helena García,Ventas,Comercial,26371.14,2019-07-22,completa,2.2,Madrid,6.0
+112,Paula Iglesias,Ventas,Account Manager,30456.07,2018-03-28,completa,3.1,Madrid,8.0
+113,Sergio López,Rrhh,HR Specialist,36547.69,2022-05-01,completa,6.9,Barcelona,4.0
+114,Iván Pérez,Finanzas,Analista Financiero,29647.79,2018-07-20,completa,2.2,Madrid,7.0
+115,Álvaro López,Ventas,Sales Lead,29815.26,2020-11-05,completa,3.0,Madrid,5.0
+116,Nerea Álvarez,Tecnología,DevOps,18920.83,2020-07-15,completa,6.2,Madrid,5.0
+117,Laura Romero,Marketing,SEO Specialist,36991.22,2021-02-24,completa,2.5,Remoto,5.0
+118,Sergio González,Operaciones,Supervisor,33114.93,2018-02-27,completa,8.0,Remoto,8.0
+119,Esteban Vega,Marketing,Content Manager,34470.14,2022-04-06,parcial,8.7,Barcelona,4.0
+120,Quique Romero,Rrhh,Recruiter,18261.28,2023-01-05,completa,1.3,Madrid,3.0
+121,Uxía Torres,Operaciones,Coordinador,46856.3,2023-02-12,parcial,5.8,Remoto,3.0
+122,Xavi García,Ventas,Sales Lead,33389.02,2018-05-10,completa,8.2,Madrid,8.0
+124,Yolanda Iglesias,Tecnología,Data Analyst,27815.755,2019-10-29,completa,3.5,Madrid,6.0
+125,Víctor Ramos,Ventas,Comercial,31991.99,2021-06-08,completa,2.5,Madrid,5.0
+126,Rosa Fernández,Ventas,Comercial,18943.89,2023-06-17,completa,8.9,Barcelona,2.0
+127,Marcos Fernández,Tecnología,Developer,28352.95,2020-11-01,completa,9.2,Barcelona,5.0
+128,Marcos Martínez,Finanzas,Controller,18000.0,2021-05-26,completa,2.8,Madrid,5.0
+129,Paula Torres,Tecnología,QA Engineer,41444.57,2020-11-14,parcial,5.0,Barcelona,5.0
+130,Marcos García,Marketing,Paid Media,28251.73,2019-02-13,parcial,7.5,Madrid,7.0
+131,Gonzalo Martínez,Marketing,SEO Specialist,25317.02,2021-11-19,completa,8.6,Madrid,4.0
+132,Gonzalo Rodríguez,Rrhh,HR Manager,41652.23,2019-07-22,completa,5.183333333333334,Madrid,6.0
+133,Fátima Martínez,Marketing,Paid Media,18000.0,2020-07-15,parcial,7.0,Madrid,5.0
+134,Kevin Romero,Ventas,Account Manager,36818.86,2020-11-06,completa,8.3,Madrid,5.0
+135,Beatriz Martínez,Ventas,Sales Lead,18000.0,2020-12-28,completa,5.9,Madrid,5.0
+136,Álvaro Romero,Tecnología,DevOps,26040.57,2022-07-12,completa,2.5,Madrid,3.0
+137,Esteban Álvarez,Finanzas,Controller,21162.02,2020-09-06,completa,1.3,Madrid,5.0
+138,Diana González,Rrhh,HR Manager,45157.78,2020-11-05,completa,3.5,Barcelona,5.0
+139,Teresa García,Tecnología,Data Analyst,27815.755,2023-04-13,completa,8.3,Barcelona,3.0
+140,Carlos Iglesias,Marketing,SEO Specialist,29035.28,2019-05-23,completa,1.4,Valencia,7.0
+141,Gonzalo Romero,Rrhh,HR Specialist,39566.6,2021-12-02,parcial,5.183333333333334,Barcelona,4.0
+142,Marcos López,Tecnología,Developer,30380.12,2020-12-07,completa,4.3,Valencia,5.0
+143,Uxía Pérez,Finanzas,Contable,37112.56,2022-12-01,parcial,1.6,Remoto,3.0
+144,Laura Romero,Finanzas,Contable,25224.47,2022-11-30,completa,2.3,Madrid,3.0
+145,Laura Rodríguez,Tecnología,Data Analyst,18000.0,2023-04-14,parcial,1.2,Madrid,3.0
+146,Diana Martínez,Marketing,Content Manager,18000.0,2023-03-16,completa,5.7,Remoto,3.0
+147,Paula Rodríguez,Marketing,SEO Specialist,35448.1,2019-06-16,parcial,7.3,Madrid,7.0
+148,Paula Rodríguez,Operaciones,Logístico,52228.36,2023-03-05,completa,4.8,Valencia,3.0
+149,Julia Martínez,Finanzas,Controller,34424.7,2021-02-19,completa,2.2,Madrid,5.0
+150,Esteban Martínez,Tecnología,DevOps,27278.56,2023-01-03,completa,4.0,Madrid,3.0
+151,Xavi González,Operaciones,Logístico,49208.17,2023-04-16,parcial,6.3,Valencia,3.0
+152,Xavi Pérez,Ventas,Account Manager,34135.72,2019-02-19,completa,9.5,Remoto,7.0
+153,Paula Iglesias,Rrhh,HR Manager,32912.91,2022-09-17,completa,9.9,Barcelona,3.0
+154,Wanda López,Finanzas,Controller,34273.2,2020-07-05,completa,3.2,Valencia,5.0
+155,Quique García,Ventas,Sales Lead,30808.61,2018-10-08,completa,1.1,Valencia,7.0
+157,Laura López,Ventas,Account Manager,19085.33,2018-09-07,completa,9.3,Barcelona,7.0
+158,Wanda Álvarez,Finanzas,Contable,36514.62,2020-03-14,completa,3.553846153846154,Barcelona,6.0
+159,Álvaro Ramos,Finanzas,Analista Financiero,31147.02,2020-06-24,completa,7.9,Valencia,5.0
+160,Quique Pérez,Marketing,SEO Specialist,42737.77,2019-10-10,completa,8.8,Valencia,6.0
+161,Uxía Iglesias,Operaciones,Logístico,43671.97,2018-05-29,completa,6.5,Valencia,8.0
+162,Carlos Vega,Tecnología,DevOps,18000.0,2021-10-06,completa,8.9,Barcelona,4.0
+163,Iván Álvarez,Finanzas,Analista Financiero,31103.5,2019-05-08,completa,1.2,Remoto,7.0
+164,Laura Castro,Marketing,Paid Media,47295.84,2020-05-27,completa,3.4,Barcelona,6.0
+165,Fátima González,Marketing,Paid Media,28549.19,2018-05-30,completa,5.192857142857143,Barcelona,8.0
+166,Yolanda Sánchez,Rrhh,HR Manager,23991.29,2019-03-12,completa,2.1,Madrid,7.0
+167,Rosa Álvarez,Operaciones,Coordinador,21257.67,2021-10-03,completa,9.2,Madrid,4.0
+168,Yolanda Álvarez,Operaciones,Supervisor,22549.85,2019-09-13,completa,1.3,Madrid,6.0
+169,Kevin Torres,Rrhh,HR Specialist,29298.26,2022-05-25,completa,7.1,Madrid,4.0
+170,Helena Romero,Marketing,Paid Media,21380.16,2018-09-08,completa,1.6,Madrid,7.0
+171,Yolanda Iglesias,Ventas,Comercial,45478.75,2023-01-12,completa,4.2,Valencia,3.0
+172,Gonzalo Ramos,Finanzas,Contable,29456.28,2022-05-11,completa,4.8,Barcelona,4.0
+173,Helena Iglesias,Marketing,Paid Media,32977.84,2018-11-13,completa,2.6,Madrid,7.0
+174,Marcos Vega,Operaciones,Logístico,43671.97,2023-04-09,parcial,5.7,Barcelona,3.0
+175,Helena Sánchez,Finanzas,Analista Financiero,45529.87,2022-01-06,completa,5.8,Barcelona,4.0
+176,Quique Rodríguez,Tecnología,Data Analyst,30085.4,2021-08-10,parcial,5.4,Barcelona,4.0
+177,Laura Vega,Rrhh,HR Manager,34987.77,2021-09-14,completa,7.6,Madrid,4.0
+178,Álvaro García,Finanzas,Controller,38615.24,2020-01-20,completa,2.4,Valencia,6.0
+179,Iván Rodríguez,Ventas,Comercial,31991.99,2018-10-20,parcial,2.7,Valencia,7.0
+180,Iván Sánchez,Rrhh,HR Specialist,18000.0,2019-06-03,completa,4.2,Barcelona,7.0
+181,Wanda Romero,Tecnología,Data Analyst,37892.35,2022-12-14,completa,4.4,Barcelona,3.0
+182,Laura Rodríguez,Ventas,Account Manager,40049.17,2018-10-09,completa,2.9,Barcelona,7.0
+183,Xavi González,Ventas,Sales Lead,35739.52,2023-06-05,parcial,9.3,Madrid,3.0
+184,Laura Martínez,Finanzas,Contable,31147.02,2020-08-15,completa,8.5,Valencia,5.0
+185,Helena Martínez,Ventas,Comercial,30235.75,2019-03-26,parcial,2.0,Madrid,7.0
+186,Helena Rodríguez,Tecnología,Developer,26683.07,2022-03-10,completa,4.3,Madrid,4.0
+187,Gonzalo González,Rrhh,Recruiter,29302.6,2023-05-05,completa,3.1,Madrid,3.0
+188,Gonzalo Rodríguez,Operaciones,Supervisor,43671.97,2018-07-12,completa,5.1,Valencia,7.0
+189,Teresa Castro,Ventas,Sales Lead,45766.22,2020-03-26,completa,3.5,Madrid,6.0
+190,Teresa Iglesias,Rrhh,HR Manager,38024.76,2022-12-18,completa,5.5,Valencia,3.0
