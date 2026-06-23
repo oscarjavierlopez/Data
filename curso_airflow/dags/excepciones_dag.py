@@ -3,6 +3,8 @@ from airflow import DAG
 from airflow.models.param import Param
 from airflow.operators.python import PythonOperator
 from airflow.operators.empty import EmptyOperator
+from airflow.exceptions import AirflowFailException, AirflowSkipException
+from airflow.utils.trigger_rule import TriggerRule
 import logging
 
 # Crea un formulario para ejecuciones manuales
@@ -17,11 +19,15 @@ params = {
 
 
 def first_task(**context):
-    logging.info(context['params'])
+    if context["params"]["Manual"]:
+        raise AirflowFailException("Tarea fallida")
+    
+def second_task():
+    logging.info("Hello world")
 
 
 with DAG(
-    dag_id="hello_world_dag",
+    dag_id="excepciones_dag",
     start_date=datetime(2024, 6, 17),
     catchup=False,
     default_args={
@@ -31,9 +37,8 @@ with DAG(
     params=params,
 ):
     start = EmptyOperator(task_id="start")
-    first_task = PythonOperator(
-        task_id="first_task", python_callable=first_task
-    )
-    end = EmptyOperator(task_id="end")
+    first_task = PythonOperator(task_id="first_task", python_callable=first_task)
+    second_task = PythonOperator(task_id="second_task", python_callable=second_task)
+    end = EmptyOperator(task_id="end", trigger_rule=TriggerRule.ONE_SUCCESS)
 
-    start >> first_task >> end
+    start >> [first_task, second_task] >> end

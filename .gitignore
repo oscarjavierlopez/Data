@@ -1,0 +1,7 @@
+# Ignorar logs de Airflow
+curso_airflow/logs/
+
+# Ignorar ficheros de docker:
+curso_airflow/airflow.db
+curso_airflow/airflow.cfg
+curso_airflow/airflow-webserver.pid
