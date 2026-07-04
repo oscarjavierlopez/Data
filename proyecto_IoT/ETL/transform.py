@@ -199,7 +199,7 @@ def get_resumen_trafico_hora(df_sensores_trafico: pd.DataFrame):
         num_incidencias=("incidencia", lambda x: (x != "sin_incidencia").sum()),
         nivel_congestion_predominante=(
             "nivel_congestion",
-            lambda x: x.mode(),
+            lambda x: x.mode().iloc[0],
         ),
     )
 
