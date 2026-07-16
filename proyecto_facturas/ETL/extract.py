@@ -1,8 +1,11 @@
+import logging
 from PyPDF2 import PdfReader
 import pandas as pd
 import os
 import re
 from typing import Dict, Any
+
+logger = logging.getLogger(__name__)
 
 
 def extraer_contenido_pdf(pdf: str, datos: dict[str, list[Any]]):
@@ -65,10 +68,14 @@ def crear_dataframe(carpeta: str):
         "estado": [],
     }
 
+    logger.info("Extrayendo datos de la carpeta: %s", carpeta)
+
     for pdf in os.listdir(carpeta):
         factura = os.path.join(carpeta, pdf).replace("\\", "/")
+        logger.info("Procesando: %s", pdf)
         extraer_contenido_pdf(factura, datos)
 
     # Crear dataframe a partir del diccionario con los datos de las facturas
     df_facturas = pd.DataFrame(datos)
+    logger.info("DataFrame creado con %d filas y %d columnas", df_facturas.shape[0], df_facturas.shape[1])
     return df_facturas

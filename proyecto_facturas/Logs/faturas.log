@@ -1,0 +1,45 @@
+2026-07-16 11:10:11,553 - __main__ - INFO - Inicio del proceso ETL
+2026-07-16 11:10:11,554 - ETL.extract - INFO - Extrayendo datos de la carpeta: Data/bronze
+2026-07-16 11:10:11,554 - ETL.extract - INFO - Procesando: factura_01_Industrias_Metálicas.pdf
+2026-07-16 11:10:11,565 - ETL.extract - INFO - Procesando: factura_02_Grupo_Editorial_Medi.pdf
+2026-07-16 11:10:11,572 - ETL.extract - INFO - Procesando: factura_03_Constructora_Ávila_&.pdf
+2026-07-16 11:10:11,576 - ETL.extract - INFO - Procesando: factura_04_Farmacéutica_Levante.pdf
+2026-07-16 11:10:11,582 - ETL.extract - INFO - Procesando: factura_05_Transportes_Rápidos.pdf
+2026-07-16 11:10:11,588 - ETL.extract - INFO - Procesando: factura_06_Soluciones_Agrícolas.pdf
+2026-07-16 11:10:11,596 - ETL.extract - INFO - Procesando: factura_07_TecnoPlásticos_Aragó.pdf
+2026-07-16 11:10:11,602 - ETL.extract - INFO - Procesando: factura_08_Consultoría_Financie.pdf
+2026-07-16 11:10:11,607 - ETL.extract - INFO - Procesando: factura_09_Distribuciones_Galic.pdf
+2026-07-16 11:10:11,613 - ETL.extract - INFO - Procesando: factura_10_Muebles_y_Decoración.pdf
+2026-07-16 11:10:11,619 - ETL.extract - INFO - Procesando: factura_11_Electrónica_Balear_C.pdf
+2026-07-16 11:10:11,624 - ETL.extract - INFO - Procesando: factura_12_Servicios_Logísticos.pdf
+2026-07-16 11:10:11,632 - ETL.extract - INFO - DataFrame creado con 12 filas y 10 columnas
+2026-07-16 11:10:11,633 - ETL.transform - INFO - Iniciando limpieza del DataFrame
+2026-07-16 11:10:11,637 - ETL.transform - INFO - Limpieza completada — 12 filas procesadas
+2026-07-16 11:10:11,640 - ETL.load - INFO - Almacenado Data\silver\facturas_limpio.csv
+2026-07-16 11:10:11,645 - ETL.transform - INFO - Enriquecimiento completado — 14 columnas en total
+2026-07-16 11:10:11,648 - ETL.load - INFO - Almacenado Data\gold\facturas_procesadas.csv
+2026-07-16 11:10:11,769 - ETL.load - INFO - Almacenado Data\gold\facturas_procesadas.xlsx
+2026-07-16 11:10:11,769 - __main__ - INFO - Proceso ETL finalizado correctamente
+2026-07-16 11:14:58,260 - __main__ - INFO - ────────────────────────────────────────
+2026-07-16 11:14:58,261 - __main__ - INFO - Inicio del proceso ETL
+2026-07-16 11:14:58,261 - ETL.extract - INFO - Extrayendo datos de la carpeta: Data/bronze
+2026-07-16 11:14:58,261 - ETL.extract - INFO - Procesando: factura_01_Industrias_Metálicas.pdf
+2026-07-16 11:14:58,270 - ETL.extract - INFO - Procesando: factura_02_Grupo_Editorial_Medi.pdf
+2026-07-16 11:14:58,277 - ETL.extract - INFO - Procesando: factura_03_Constructora_Ávila_&.pdf
+2026-07-16 11:14:58,282 - ETL.extract - INFO - Procesando: factura_04_Farmacéutica_Levante.pdf
+2026-07-16 11:14:58,288 - ETL.extract - INFO - Procesando: factura_05_Transportes_Rápidos.pdf
+2026-07-16 11:14:58,293 - ETL.extract - INFO - Procesando: factura_06_Soluciones_Agrícolas.pdf
+2026-07-16 11:14:58,298 - ETL.extract - INFO - Procesando: factura_07_TecnoPlásticos_Aragó.pdf
+2026-07-16 11:14:58,304 - ETL.extract - INFO - Procesando: factura_08_Consultoría_Financie.pdf
+2026-07-16 11:14:58,309 - ETL.extract - INFO - Procesando: factura_09_Distribuciones_Galic.pdf
+2026-07-16 11:14:58,315 - ETL.extract - INFO - Procesando: factura_10_Muebles_y_Decoración.pdf
+2026-07-16 11:14:58,320 - ETL.extract - INFO - Procesando: factura_11_Electrónica_Balear_C.pdf
+2026-07-16 11:14:58,325 - ETL.extract - INFO - Procesando: factura_12_Servicios_Logísticos.pdf
+2026-07-16 11:14:58,331 - ETL.extract - INFO - DataFrame creado con 12 filas y 10 columnas
+2026-07-16 11:14:58,332 - ETL.transform - INFO - Iniciando limpieza del DataFrame
+2026-07-16 11:14:58,336 - ETL.transform - INFO - Limpieza completada — 12 filas procesadas
+2026-07-16 11:14:58,339 - ETL.load - INFO - Almacenado Data\silver\facturas_limpio.csv
+2026-07-16 11:14:58,343 - ETL.transform - INFO - Enriquecimiento completado — 14 columnas en total
+2026-07-16 11:14:58,345 - ETL.load - INFO - Almacenado Data\gold\facturas_procesadas.csv
+2026-07-16 11:14:58,444 - ETL.load - INFO - Almacenado Data\gold\facturas_procesadas.xlsx
+2026-07-16 11:14:58,445 - __main__ - INFO - Proceso ETL finalizado correctamente
