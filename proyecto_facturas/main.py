@@ -15,7 +15,7 @@ logging.basicConfig(
         logging.FileHandler(
             os.path.join(LOG_DIR, "faturas.log"), encoding="utf-8"
         ),  # Para que los logs vayan al fichero de logs
-        logging.StreamHandler(),  # Para que los logs se vean por pantalla
+        logging.StreamHandler(),  # Para que los logs se vean por consola
     ],
 )
 
