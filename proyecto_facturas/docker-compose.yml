@@ -4,3 +4,5 @@ services:
         volumes:
             - ./Data:/app/Data
             - ./Logs:/app/Logs
+        environment:
+            - TZ=Europe/Madrid
