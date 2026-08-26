@@ -1,8 +1,10 @@
 import logging
 import os
+from datetime import datetime
 from ETL.extract import crear_dataframe
 from ETL.transform import limpiar_dataframe_facturas, enriquecer_dataframe_facturas
 from ETL.load import almacenar_df_silver, load_df_gold
+
 
 # Configuracion del logger
 LOG_DIR = "Logs"
@@ -29,12 +31,14 @@ def main():
     df_facturas = crear_dataframe("Data/bronze")
 
     # Modificamos los tipos y almacenamos el dataset en la capa silver
+    timestamp_actual = datetime.now().timestamp()
+
     df_facturas_limpio = limpiar_dataframe_facturas(df_facturas)
-    almacenar_df_silver(df_facturas_limpio, "facturas_limpio")
+    almacenar_df_silver(df_facturas_limpio, f"{timestamp_actual}_facturas_limpio")
 
     # Enriquecemos el dataset y lo almacenamos en la capa gold
     df_facturas_enriquecido = enriquecer_dataframe_facturas(df_facturas_limpio)
-    load_df_gold(df_facturas_enriquecido, "facturas_procesadas")
+    load_df_gold(df_facturas_enriquecido, f"{timestamp_actual}_facturas_procesadas")
 
     logger.info("Proceso ETL finalizado correctamente")
 
