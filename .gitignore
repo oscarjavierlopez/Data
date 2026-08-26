@@ -1,4 +1,5 @@
 # Ignorar logs de Airflow
 curso_airflow/logs/
-*.csv
-*.xlsx
+**/*.csv
+**/*.xlsx
+**/*.log
