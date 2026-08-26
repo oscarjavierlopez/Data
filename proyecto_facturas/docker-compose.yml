@@ -2,5 +2,5 @@ services:
     pipeline:
         build: .
         volumes:
-            - ./Data:/app/data
+            - ./Data:/app/Data
             - ./Logs:/app/Logs
